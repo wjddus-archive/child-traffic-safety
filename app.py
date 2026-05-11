@@ -58,7 +58,7 @@ with tab1:
         fig1_1 = px.pie(df1_1, values='어린이집_수', names='어린이집유형', hole=0.4, 
                         color_discrete_sequence=px.colors.qualitative.Pastel)
         st.plotly_chart(fig1_1, use_container_width=True)
-        st.info("""
+        st.info(""")
 
     # 1-2. 통학차량 운영 현황 (파이 차트)
     with col2:
