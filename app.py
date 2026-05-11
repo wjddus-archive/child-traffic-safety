@@ -59,10 +59,6 @@ with tab1:
                         color_discrete_sequence=px.colors.qualitative.Pastel)
         st.plotly_chart(fig1_1, use_container_width=True)
         st.info("""
-        **💡 인사이트**
-        * 해당 지역의 보육 시설이 국공립 위주인지, 민간/가정 위주인지 한눈에 파악할 수 있습니다.
-        * 운영 주체별로 안전 관리 책임 소재가 다르므로, 맞춤형 안전 교육 타겟팅에 유용합니다.
-        """)
 
     # 1-2. 통학차량 운영 현황 (파이 차트)
     with col2:
@@ -79,10 +75,6 @@ with tab1:
                         color='통학차량운영여부', color_discrete_map=color_map)
         st.plotly_chart(fig1_2, use_container_width=True)
         st.info("""
-        **💡 인사이트**
-        * 통학차량을 운영하는 시설의 비율을 통해 잠재적인 차량 이동 위험 요인을 가늠합니다.
-        * 비율이 높다면 어린이 승하차 구역(Drop-off Zone) 정비 예산 편성이 시급함을 의미합니다.
-        """)
 
     # 1-3. 지역별 인프라 밀집도 (가로 막대 차트)
     st.subheader("지역별 인프라 밀집도 (어린이집 수)")
